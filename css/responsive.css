@@ -1,0 +1,112 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .banner {
+    padding: 0 15px;
+  }
+
+  .banner-content h1 {
+    font-size: 33px;
+    letter-spacing: 10px;
+    padding: 20px 0;
+  }
+
+  .btn {
+    padding: 10px 25px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-item .overlay .overlay-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  .main-header {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .main-nav li a {
+    margin: 10px 15px;
+  }
+  
+  .about .section-heading {
+    padding: 0 15px;
+  }
+  
+  .about-content .about-item {
+    padding: 15px;
+  }
+
+  .card .card-title {
+    padding: 20px 0;
+  }
+
+  .service {
+    padding: 80px 15px;
+  }
+  .service .row .col {
+    width: auto;
+  }
+
+  
+  .my-work .work-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-item .overlay {
+    padding: 15px;
+    width: 90%;
+    height: 90%;
+  }
+
+  .gallery-item .overlay .overlay-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-content h1 {
+    font-size: 50px;
+    letter-spacing: 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  .main-nav li a{ 
+    margin: 20px;
+  }
+  
+  .my-work .work-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery-item .overlay {
+    padding: 15px;
+  }
+}
+
+/* Large devices (desktops and laptop) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}
